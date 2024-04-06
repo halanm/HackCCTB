@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Video title",
+    "category": "Video Content",
+    "prompt": "Generate a video title for a YouTube video",
+    "params": [
+      {
+        "text": "Describe what your video is about",
+        "placeholder": "Describe your video in as much detail as possible",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Video description",
+    "category": "Video Content",
+    "prompt": "Generate a video description for a YouTube video",
+    "params": [
+      {
+        "text": "Describe what your video is about",
+        "placeholder": "Describe your video in as much detail as possible",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Video script",
+    "category": "Video Content",
+    "prompt": "Generate a script for a YouTube video",
+    "params": [
+      {
+        "text": "Describe the central subject of your video",
+        "placeholder": "Provide as much detail as possible about your video",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Content Ideas for Videos",
+    "category": "Video Content",
+    "prompt": "Generate content ideas for YouTube videos",
+    "params": [
+      {
+        "text": "Describe the central subject of your video",
+        "placeholder": "Artificial intelligence video",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "Search term",
+        "placeholder": "Artificial intelligence, productivity, results",
+        "options": "",
+        "type": "text"
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Instagram Bio",
+    "category": "Social Media",
+    "prompt": "Generate a bio for an Instagram account with max 150 characters.",
+    "params": [
+      {
+        "text": "What is the subject of the profile?",
+        "placeholder": "Insert here the subject(s) addressed in the profile.",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Instagram posts schedule",
+    "category": "Social Media",
+    "prompt": "Posting schedule for Instagram. The schedule should be weekly, including the type of content and the frequency I should post on each type of media; feed, stories, reels. I would also like the schedule to include the dates and times of each post, as well as suggestions for relevant hashtags and popular topics.",
+    "params": [
+      {
+        "text": "What topic do you want to create the timeline on?",
+        "placeholder": "Enter details about the post here and state the action you want your audience to take.",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Instagram Post Captions",
+    "category": "Social Media",
+    "prompt": "Generate captions for Instagram posts. The captions should be engaging and relevant to the post.",
+    "params": [
+      {
+        "text": "What is the post about?",
+        "placeholder": "Enter details about the post here and state the action you want your audience to take.",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "What is the text size?",
+        "placeholder": "",
+        "options": "Small;Large",
+        "type": "select"
+      },
+      {
+        "text": "What is the Purpose of the post?",
+        "placeholder": "",
+        "options": "Engagement;Informative;Sales",
+        "type": "select"
+      }
+    ]
+  },
+  {
+    "name": "Instagram Hashtags Trends",
+    "category": "Social Media",
+    "prompt": "Generate a list of trending hashtags for Instagram posts. The hashtags should be relevant to the post and popular among users.",
+    "params": [
+      {
+        "text": "Image Description",
+        "placeholder": "First day of kindergarten for my daughter Ellie. She looks so adorable.",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Caption for LinkedIn posts",
+    "category": "Social Media",
+    "prompt": "Generate captions for LinkedIn posts. The captions should be professional and relevant to the post.",
+    "params": [
+      {
+        "text": "What is the post about?",
+        "placeholder": "Enter details about the post here and state the action you want your audience to take.",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "What is the text size?",
+        "placeholder": "",
+        "options": "Small;Large",
+        "type": "select"
+      },
+      {
+        "text": "What is the Purpose of the post?",
+        "placeholder": "",
+        "options": "Engagement;Informative;Sales",
+        "type": "select"
+      }
+    ]
+  },
+  {
+    "name": "Twitter Post",
+    "category": "Social Media",
+    "prompt": "Generate a post for Twitter. The post should be engaging and relevant to the audience.",
+    "params": [
+      {
+        "text": "What is the post about?",
+        "placeholder": "Enter details about the post here and state the action you want your audience to take.",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Instagram Post Ideas",
+    "category": "Social Media",
+    "prompt": "Generate ideas for Instagram posts. The ideas should be creative and engaging for the audience.",
+    "params": [
+      {
+        "text": "What is the post about?",
+        "placeholder": "Enter details about your product or post here...",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "What is the Purpose of the post?",
+        "placeholder": "",
+        "options": "Share;Like;Save;Comment",
+        "type": "select"
+      }
+    ]
+  }
+]

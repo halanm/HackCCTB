@@ -1,9 +1,8 @@
-class Generator():
+class Generator:
     generators = []
 
-    def __init__(self, name, description, category, prompt):
+    def __init__(self, name, category, prompt):
         self.name = name
-        self.description = description
         self.category = category
         self.prompt = prompt
         Generator.generators.append(self)

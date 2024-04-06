@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Google Ads Search",
+    "category": "Online Ads",
+    "prompt": "Google Search Network Ad structured as follows: [Headline 1] maximum 30 characters; [Headline 2] maximum 30 characters; [Headline 3] maximum 30 characters; [Description]: maximum 90 characters with call-to-action",
+    "params": [
+      {
+        "text": "What is the name of the product or service?",
+        "placeholder": "Enter only the name of your product or service",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "About your product or service",
+        "placeholder": "Describe your product or service in a few words",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Facebook Ads",
+    "category": "Online Ads",
+    "prompt": "You must play the role of an advertising copywriter and write an engaging Facebook ad copy in the style of Neil Patel that converts any product and with a proper call to action. Also, include emojis. Use different types of emojis each time.",
+    "params": [
+      {
+        "text": "What is the name of the product or service?",
+        "placeholder": "Enter only the name of your product or service",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "About your product or service",
+        "placeholder": "Describe your product or service in a few words",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "What is the text size?",
+        "placeholder": "",
+        "options": "Small;Large",
+        "type": "select"
+      }
+    ]
+  },
+  {
+    "name": "Youtube Ads",
+    "category": "Online Ads",
+    "prompt": "YouTube Ads structured as follows: [Title] 100 characters; [Description]: maximum 1,000 characters with a call-to-action at the end of the description to encourage viewers to take the desired action.",
+    "params": [
+      {
+        "text": "What is the name of the product or service?",
+        "placeholder": "Enter only the name of your product or service",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "About your product or service",
+        "placeholder": "Describe your product or service in a few words",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Google Ads Discovery",
+    "category": "Online Ads",
+    "prompt": "Google Ads Discovery Ad structured as follows: [Title]: maximum 40 characters; [Description]: maximum 90 characters",
+    "params": [
+      {
+        "text": "What is the name of the product or service?",
+        "placeholder": "Enter only the name of your product or service",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "About your product or service",
+        "placeholder": "Describe your product or service in a few words",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "name": "Linkedin Ads",
+    "category": "Online Ads",
+    "prompt": "LinkedIn ad structured as follows: [Title]: maximum 70 characters; [Description]: maximum 200 characters",
+    "params": [
+      {
+        "text": "What is the name of the product or service?",
+        "placeholder": "Enter only the name of your product or service",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "About your product or service",
+        "placeholder": "Describe your product or service in a few words",
+        "options": "",
+        "type": "textarea"
+      }
+    ]
+  }
+]

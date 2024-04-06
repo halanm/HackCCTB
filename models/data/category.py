@@ -1,6 +1,4 @@
-from models.data.generator import Generator
-
-class Category():
+class Category:
     categories = []
 
     def __init__(self, name, description):
