@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Title",
+    "category": "Headlines",
+    "prompt": "Generate a persuasive headline for a product or service",
+    "params": [
+      {
+        "text": "What is the name of the product or service?",
+        "placeholder": "Enter only the name of your product or service",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "Related Keywords",
+        "placeholder": "Enter the words between COMMAS",
+        "options": "",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "Slogan",
+    "category": "Headlines",
+    "prompt": "Generate a slogan that summarizes the characteristics of a product/service and is easily memorable",
+    "params": [
+      {
+        "text": "Talk about your product or service",
+        "placeholder": "Describe your product or service in a few words",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "What is your niche market?",
+        "placeholder": "Set the subject of your slogan",
+        "options": "",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "Persuasive Topic",
+    "category": "Headlines",
+    "prompt": "Key benefits for the product or service listed in bullet points",
+    "params": [
+      {
+        "text": "What is the name of the product or service?",
+        "placeholder": "Enter only the name of your product or service",
+        "options": "",
+        "type": "textarea"
+      },
+      {
+        "text": "Related Keywords",
+        "placeholder": "Enter the words between COMMAS",
+        "options": "",
+        "type": "text"
+      },
+      {
+        "text": "What is the text size?",
+        "placeholder": "",
+        "options": "Small;Large",
+        "type": "select"
+      }
+    ]
+  }
+]

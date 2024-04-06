@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Artcile Introduction",
+    "category": "Articles & SEO",
+    "prompt": "Create an introduction paragraph for a blog article",
+    "params": [
+      {
+        "text": "Related Keywords",
+        "placeholder": "Enter the words between COMMAS",
+        "options": "",
+        "type": "text"
+      },
+      {
+        "text": "What is the text size?",
+        "placeholder": "",
+        "options": "Small;Large",
+        "type": "select"
+      }
+    ]
+  },
+  {
+    "name": "Article Conclusion",
+    "category": "Articles & SEO",
+    "prompt": "Create an conclusion paragraph for a blog article",
+    "params": [
+      {
+        "text": "Related Keywords",
+        "placeholder": "Enter the words between COMMAS",
+        "options": "",
+        "type": "text"
+      },
+      {
+        "text": "What is the text size?",
+        "placeholder": "",
+        "options": "Small;Large",
+        "type": "select"
+      }
+    ]
+  },
+  {
+    "name": "Sections for article",
+    "category": "Articles & SEO",
+    "prompt": "Create an H2 Subheading for a section of a blog article",
+    "params": [
+      {
+        "text": "What is the title of your article?",
+        "placeholder": "Enter the title of your article",
+        "options": "",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "Paragraph to section",
+    "category": "Articles & SEO",
+    "prompt": "Create an paragraph for a section (subheading) of a blog post",
+    "params": [
+      {
+        "text": "What is the title of your article?",
+        "placeholder": "Enter the title of your article",
+        "options": "",
+        "type": "text"
+      },
+      {
+        "text": "What is the section title?",
+        "placeholder": "Enter the title of the section",
+        "options": "",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "Article title",
+    "category": "Articles & SEO",
+    "prompt": "Create an article title",
+    "params": [
+      {
+        "text": "Related Keywords",
+        "placeholder": "Enter the words between COMMAS",
+        "options": "",
+        "type": "text"
+      },
+      {
+        "text": "What is the text size?",
+        "placeholder": "",
+        "options": "Small;Large",
+        "type": "select"
+      }
+    ]
+  },
+  {
+    "name": "Keywords Extractor",
+    "category": "Articles & SEO",
+    "prompt": "Extract keywords from the text",
+    "params": [
+      {
+        "text": "Text",
+        "placeholder": "Enter the text to extract keywords from",
+        "options": "",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "name": "Title and Description for SEO",
+    "category": "Articles & SEO",
+    "prompt": "Create title and description optimized for ranking on Google",
+    "params": [
+      {
+        "text": "Related Keywords",
+        "placeholder": "Enter the words between COMMAS",
+        "options": "",
+        "type": "text"
+      }
+    ]
+  }
+]

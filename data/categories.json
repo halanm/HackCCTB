@@ -1,0 +1,27 @@
+[
+  {
+    "key": "articles_and_seo",
+    "name": "Articles & SEO",
+    "description": "Create complete articles for your blog and news website."
+  },
+  {
+    "key": "social_media",
+    "name": "Social Media",
+    "description": "Create complete descriptions for your social media posts."
+  },
+  {
+    "key": "video_content",
+    "name": "Video Content",
+    "description": "Create descriptions and generate amazing ideas or titles for your videos."
+  },
+  {
+    "key": "headlines",
+    "name": "Headlines",
+    "description": "Create impactful titles in a simple way."
+  },
+  {
+    "key": "online_ads",
+    "name": "Online Ads",
+    "description": "Generate more persuasive titles and descriptions for your Linkedin Ads."
+  }
+]
