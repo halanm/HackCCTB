@@ -5,7 +5,7 @@ import json
 
 class PopulateModels():
     def populate_models():
-        if Category.categories == []:
+        if len(Category.categories) == 0:
             f = open("data/categories.json")
 
             categories_data = json.load(f)
@@ -16,7 +16,7 @@ class PopulateModels():
                 PopulateModels.populate_generators(category["key"], category["name"])
     
     def populate_generators(key, category):
-        if Generator.list_generators_by_category(category) == []:
+        if len(Generator.list_generators_by_category(category)) == 0:
             f = open(f"data/generators/{key}.json")
 
             data = json.load(f)
