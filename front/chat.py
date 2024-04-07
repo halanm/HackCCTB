@@ -8,21 +8,12 @@ class ChatFront:
         
         if 'last_messages' not in st.session_state:
             st.session_state['last_messages'] = [{"role": "system", "content": "You are an AI called Hysis that helps users with their queries."}]
-            if 'history' not in st.session_state:
-                st.session_state['history'] = []
-        
-            if 'generated' not in st.session_state:
-                st.session_state['generated'] = ["Hello ! My name is Hysis and I am virtual chat! If you have a questions, ask me! 🤗"]
-        
-            if 'past' not in st.session_state:
-                st.session_state['past'] = ["Hey ! 👋"]
-        
-            
-    
-        if st.session_state['generated']:
-            for i in range(len(st.session_state['generated'])):
-                message(st.session_state["past"][i], is_user=True, key=str(i) + '_user', avatar_style="big-smile")
-                message(st.session_state["generated"][i], key=str(i), avatar_style="thumbs")
+        if 'history' not in st.session_state:
+            st.session_state['history'] = []
+        if 'generated' not in st.session_state:
+            st.session_state['generated'] = ["Hello ! My name is Hysis and I am virtual chat! If you have a questions, ask me! 🤗"]
+        if 'past' not in st.session_state:
+            st.session_state['past'] = ["Hey ! 👋"]
         
         user_input = st.chat_input("Talk to csv data 👉 (:", key='input')
     
@@ -32,3 +23,8 @@ class ChatFront:
             st.session_state['generated'].append(output["response"])
 
             st.session_state['last_messages'].append({"role": "assistant", "content": output["response"]})
+            
+        if st.session_state['generated']:
+            for i in range(len(st.session_state['generated'])):
+                message(st.session_state["past"][i], is_user=True, key=str(i) + '_user', avatar_style="big-smile")
+                message(st.session_state["generated"][i], key=str(i), avatar_style="thumbs")

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Artcile Introduction",
+    "name": "Article Introduction",
     "category": "Articles & SEO",
     "prompt": "Create an introduction paragraph for a blog article",
     "params": [

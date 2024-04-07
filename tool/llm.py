@@ -20,7 +20,7 @@ class Llm:
     
     def get_response(prompt) -> str:
         completion = client.chat.completions.create(
-            model=os.environ['OPENAI_MODEL'],
+            model=os.environ['OPENAI_COMPLETION_MODEL'],
             messages=[
                 {"role": "system", "content": "You are an AI built to generate useful contents for users."},
                 {"role": "user", "content": prompt}
@@ -32,10 +32,17 @@ class Llm:
         messages.append({"role": "user", "content": prompt})
 
         completion = client.chat.completions.create(
-            model=os.environ['OPENAI_MODEL'],
+            model=os.environ['OPENAI_COMPLETION_MODEL'],
             messages=messages
         )
 
-        return {
-            "response": completion.choices[0].message.content
-        }
+        completion.choices[0].message.content
+    
+    def get_image(prompt) -> str:
+        completion = client.images.generate(
+            model=os.environ['OPENAI_IMAGE_MODEL'],
+            prompt=prompt,
+            n=1,
+            size="1024x1024"
+        )
+        return completion.data[0].url
