@@ -20,7 +20,7 @@ def main():
     categories.append("Image")
         
 
-    st.sidebar.header("Generation AI")
+    st.sidebar.header("Bodle.ia")
 
     sbsb = st.sidebar.selectbox(label="Categories", options=categories)
     if sbsb == "Chat":

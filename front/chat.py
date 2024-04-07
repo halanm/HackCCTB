@@ -7,11 +7,11 @@ class ChatFront:
         st.session_state['history'] = []
         
         if 'last_messages' not in st.session_state:
-            st.session_state['last_messages'] = [{"role": "system", "content": "You are an AI called Hysis that helps users with their queries."}]
+            st.session_state['last_messages'] = [{"role": "system", "content": "You are an AI called Bodle.ia that helps users with their queries."}]
         if 'history' not in st.session_state:
             st.session_state['history'] = []
         if 'generated' not in st.session_state:
-            st.session_state['generated'] = ["Hello ! My name is Hysis and I am virtual chat! If you have a questions, ask me! 🤗"]
+            st.session_state['generated'] = ["Hello ! My name is Bodle.ia and I am virtual chat! If you have a questions, ask me! 🤗"]
         if 'past' not in st.session_state:
             st.session_state['past'] = ["Hey ! 👋"]
         
