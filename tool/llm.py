@@ -27,3 +27,15 @@ class Llm:
             ]
         )
         return completion.choices[0].message.content
+    
+    def get_response_chat(prompt, messages) -> str:
+        messages.append({"role": "user", "content": prompt})
+
+        completion = client.chat.completions.create(
+            model=os.environ['OPENAI_MODEL'],
+            messages=messages
+        )
+
+        return {
+            "response": completion.choices[0].message.content
+        }
