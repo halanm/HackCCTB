@@ -15,14 +15,14 @@ class ChatFront:
         if 'past' not in st.session_state:
             st.session_state['past'] = ["Hey ! 👋"]
         
-        user_input = st.chat_input("Talk to csv data 👉 (:", key='input')
+        user_input = st.chat_input("Talk to Bodle.ia 👉 (:", key='input')
     
         if user_input:    
             output = Llm.get_response_chat(user_input, st.session_state['last_messages'])
             st.session_state['past'].append(user_input)
-            st.session_state['generated'].append(output["response"])
+            st.session_state['generated'].append(output)
 
-            st.session_state['last_messages'].append({"role": "assistant", "content": output["response"]})
+            st.session_state['last_messages'].append({"role": "assistant", "content": output})
             
         if st.session_state['generated']:
             for i in range(len(st.session_state['generated'])):

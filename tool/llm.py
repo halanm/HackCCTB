@@ -36,7 +36,7 @@ class Llm:
             messages=messages
         )
 
-        completion.choices[0].message.content
+        return completion.choices[0].message.content
     
     def get_image(prompt) -> str:
         completion = client.images.generate(
